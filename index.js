@@ -12,21 +12,22 @@
 'use strict';
 
 function id() {
-    return "Replace This With Your Student ID";
+    return "UP879064";
     // e.g. return "UP654321";
 }
 
 function fn() {
-    return "Replace This With Your First Name";
+    return "Finlay";
 }
 
 function sn() {
-    return "Replace This With Your Surname";
+    return "Plant";
 }
 
-function example() {
-    // replace this example with
-    // your first function then
-    // add more below as necessary.
-    return;
+function add(a, b) {
+    return a+b;
+}
+
+function subtract(a, b) {
+    return a-b;
 }
