@@ -31,3 +31,15 @@ function add(a, b) {
 function subtract(a, b) {
     return a-b;
 }
+
+function checkObject(a) {
+    a.checked = true
+    return a;
+}
+
+function checkObjectInside(a) {
+    if  (typeof a.data == "object") {
+        a.checked=true
+      }
+    return a;
+}
