@@ -43,3 +43,9 @@ function checkObjectInside(a) {
       }
     return a;
 }
+
+function arraySet(x, y, z){
+      let a = xarray[x];
+          a.prototype.splice(y, z);
+      return a;
+}
