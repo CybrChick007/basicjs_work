@@ -45,7 +45,33 @@ function checkObjectInside(a) {
 }
 
 function arraySet(x, y, z){
-      let a = xarray[x];
+
+      let a = a[x];
           a.prototype.splice(y, z);
       return a;
-}
+// }
+//
+// function addAll(){
+//
+//   return;
+// }
+//
+// function larger(){
+//
+//   return;
+// }
+//
+// function largest(){
+//
+//   return;
+// }
+//
+// function compare(){
+//
+//   return;
+// }
+//
+// function addToAll(){
+//
+//   return;
+// }
